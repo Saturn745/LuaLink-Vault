@@ -1,11 +1,14 @@
-name: LuaLink-Example
+name: LuaLink-Vault
 version: "1.0.0"
 authors:
   - Element4521
-main: xyz.galaxyy.lualink.addons.example.LuaLinkExampleAddon
-description: A LuaLink addon example
+main: xyz.galaxyy.lualink.addons.vault.LuaLinkVaultAddon
+description: A LuaLink addon that adds Vault support.
 api-version: "1.20"
 dependencies:
-  - name: LuaLink
-    required: true
-    bootstrap: false
+  server:
+    LuaLink:
+      required: true
+      load: BEFORE
+    Vault:
+      required: true

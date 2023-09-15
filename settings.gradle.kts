@@ -1,2 +1,2 @@
-rootProject.name = "LuaLink-AddonTemplate"
+rootProject.name = "LuaLink-Vault"
 
