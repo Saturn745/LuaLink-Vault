@@ -19,7 +19,7 @@ dependencies {
     testImplementation("org.junit.jupiter:junit-jupiter")
     compileOnly("org.purpurmc.purpur:purpur-api:1.19.4-R0.1-SNAPSHOT")
     compileOnly("xyz.galaxyy.lualink:lualink:1.20.1-14")
-    compileOnly("com.github.MilkBowl:VaultAPI:1.7")
+    compileOnly("com.github.MilkBowl:VaultAPI:1.7.1")
 }
 
 tasks.test {
